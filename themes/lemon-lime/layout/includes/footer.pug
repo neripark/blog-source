@@ -14,8 +14,8 @@ footer#page-footer
 				#copyright!= _p('copyright_statement', theme.copyright.liscense_link, theme.copyright.liscense_type)
 		//- footer最后一行的icon
 		#contact-me
-			#rss
-				a(href= url_for('/atom.xml'), type="application/atom+xml", rel="alternate",  target="_blank"): i.fa.fa-rss(aria-hidden="true")
+			//- #rss
+			//- 	a(href= url_for('/atom.xml'), type="application/atom+xml", rel="alternate",  target="_blank"): i.fa.fa-rss(aria-hidden="true")
 			
 			if (theme.email_address)
 				#email

@@ -25,7 +25,7 @@ email_address:
 social_media:
   github:
     name: github
-    address: https://github.com/yourUserName # replace this link with yours
+    address: https://github.com/neirpark # replace this link with yours
     icon: fa-github
   weibo:
     name: weibo
